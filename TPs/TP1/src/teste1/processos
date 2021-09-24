@@ -1,0 +1,7 @@
+    PID TTY          TIME CMD
+   8740 pts/0    00:00:05 zsh
+   8747 pts/0    00:00:00 zsh
+   8755 pts/0    00:00:00 zsh
+   8756 pts/0    00:00:00 zsh
+   8758 pts/0    00:00:00 gitstatusd
+   9307 pts/0    00:00:00 ps
