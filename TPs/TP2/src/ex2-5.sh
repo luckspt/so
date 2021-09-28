@@ -3,7 +3,7 @@ if [ $1 ]; then
     soma=0
     for i in $*
     do
-        let soma=$soma+$i
+        let soma+=$i
     done
     
     echo "Soma: $soma"

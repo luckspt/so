@@ -5,7 +5,7 @@ do
     if [ -z "$linha" ]; then
         break
     fi
-    let soma=$soma+$linha
+    let soma+=$linha
 done
 
 echo "Soma: $soma"

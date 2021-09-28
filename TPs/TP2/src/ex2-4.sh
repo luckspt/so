@@ -6,10 +6,10 @@ if [ $1 ]; then
     for i in $*
     do
         if [ $i -lt 0 ]; then
-            let negativos=$negativos+1
+            let negativos++
         elif [ $i -eq 0 ]; then
-            let zeros=$zeros+1
-        else let positivos=$positivos+1
+            let zeros++
+        else let positivos++
         fi
     done
     
