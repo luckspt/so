@@ -2,7 +2,7 @@
 positivos=0
 negativos=0
 zeros=0
-if [ $1 ]; then
+if [ $# -gt 0 ]; then
     for i in $*
     do
         if [ $i -lt 0 ]; then

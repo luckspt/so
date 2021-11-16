@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ $1 ]; then
+if [ $# -gt 0 ]; then
     for i in $*
     do
         if [ $i -lt 0 ]; then

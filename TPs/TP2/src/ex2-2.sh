@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ $1 ]; then
+if [ $# -gt 0 ]; then
     if [ $1 -lt 0 ]; then
         echo "$1 e’ um numero inteiro negativo"
     elif [ $1 -eq 0 ]; then

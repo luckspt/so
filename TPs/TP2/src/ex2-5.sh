@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ $1 ]; then
+if [ $# -gt 0 ]; then
     soma=0
     for i in $*
     do
